@@ -15,8 +15,3 @@ def test_create_issue():
 
 def test_pull_request():
     result = github_api.pull_request()
-
-test_repo_name()
-test_top_content()
-test_create_issue()
-test_pull_request()
